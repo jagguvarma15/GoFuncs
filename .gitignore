@@ -1,0 +1,153 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+
+# Go workspace file
+go.work
+
+# Build output directory
+bin/
+build/
+dist/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Coverage reports
+coverage.txt
+coverage.html
+coverage.out
+
+# Benchmarking
+*.bench
+
+# Dependency directories
+node_modules/
+
+# Temporary directories
+tmp/
+temp/
+.tmp/
+
+# Configuration files with sensitive data
+config/production.yaml
+config/secrets.yaml
+.env
+.env.local
+.env.production
+
+# Function runtime temporary files
+/tmp/gofuncs-*
+gofuncs-runtime-*/
+
+# SSL/TLS certificates
+*.pem
+*.key
+*.crt
+*.csr
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Backup files
+*.bak
+*.backup
+
+# Archive files
+*.tar.gz
+*.zip
+*.rar
+
+# Local development files
+.local/
+local.yaml
+dev.yaml
+
+# Performance profiling files
+*.prof
+cpu.prof
+mem.prof
+block.prof
+mutex.prof
+
+# Debugging files
+debug
+debug.test
+
+# Air live reload tool
+.air/
+
+# GoReleaser files
+.goreleaser.yml
+
+# Docker files (if not needed)
+# Dockerfile
+# docker-compose.yml
+
+# Kubernetes secrets
+k8s/secrets/
+
+# Helm charts (if using)
+charts/
+
+# Terraform files (if using)
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Documentation build output
+docs/_build/
+docs/site/
+
+# Frontend build output (if adding web dashboard)
+web/dist/
+web/node_modules/
+web/build/
+
+# Testing artifacts
+testdata/output/
+test_results/
+
+# Benchmark results
+benchmarks/
+
+# Custom exclusions for GoFuncs
+examples/compiled/
+examples/output/
+functions/build/
